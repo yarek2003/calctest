@@ -48,7 +48,7 @@ public class CalculatorServiceImpl implements CalculatorService {
 
     public static String check(Integer num1, Integer num2) {
         if (num1 == null || num2 == null) {
-            return "Please enter a number";
+            return "Один из аргументов не введен";
         }
         return null;
     }
